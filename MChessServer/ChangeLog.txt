@@ -1,0 +1,5 @@
+Martian Chess Server ChangeLog
+
+Version 0.5.0.1 (not ready to call it 1.0 yet)
+---------------
+Ability to work as server for 2 or 4 players/clients

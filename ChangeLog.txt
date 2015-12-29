@@ -1,0 +1,41 @@
+Martian Chess ChangeLog
+
+Version 1.0
+-----------
+4-Player game
+Scores drawn on screen
+All 4-player rules included (additional rules for 2 players not done yet)
+
+Version 1.5
+-----------
+Board rotates with right mouse button
+New game option
+In-game rules
+Keyboard accelerators Ctrl-N, Ctrl-R, Crtl-Q
+
+Version 1.5.1
+-------------
+Fixed bug in Release version with clicking off the board -added ZeroMemory() call in ProcessSelection
+
+Version 2.0
+-----------
+Added 2-player support - including "no reject" rule
+Added simple dialog box that appears while OpenGL is being initialized
+Changed Project and Solution name from MartianChessWin32 to MartianChess
+
+Version 2.0.1
+-------------
+Fixed bug when clicking Cancel after selecting New Game
+Changed the icon to have four spaces (not three) and changed black and white spaces
+
+Version 2.0.1.1 (not ready to call it 3.0 yet)
+---------------
+Added network capability
+Condensed code in InLegalPath() -added SIGN() macro
+IsGameOver() checks against WhoseTurn not PlayerNum
+Temporary changes - window size, piece placement for players 0 and 1
+
+Version 2.0.1.2
+---------------
+Titlebar displays player names
+Unknown player names not shown while waiting for players 
